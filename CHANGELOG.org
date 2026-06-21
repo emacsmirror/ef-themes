@@ -12,6 +12,53 @@ the manual: <https://protesilaos.com/emacs/ef-themes>.
 
 #+toc: headlines 1 insert TOC here, with one headline level
 
+* Version 2.2.0 on 2026-06-21
+:PROPERTIES:
+:CUSTOM_ID: h:4b6e7930-4923-4abe-857b-06c81ceeae61
+:END:
+
+This version contains two new themes and several stylistic refinements
+to existing items in the collection.
+
+** Enjoy ~ef-arcadia~ and ~ef-atlantis~ themes
+:PROPERTIES:
+:CUSTOM_ID: h:82467e2d-bb9f-4c35-9a60-8cd1c9c38014
+:END:
+
+~ef-arcadia~ is a light theme with a green, humid feel. ~ef-atlantis~
+is a dark theme with aquatic colours.
+
+** Improved style for ~company~ and ~corfu~ popups
+:PROPERTIES:
+:CUSTOM_ID: h:f999f17e-c84a-411f-89ac-f6154c06f966
+:END:
+
+I have revised the colour that each theme applies to the popup
+background. It should now be more consistent with all other elements
+on display.
+
+Thanks to aikrahguzar for suggesting a review in issue 70:
+<https://github.com/protesilaos/ef-themes/issues/70>.
+
+** The current line highlight for completions is easier to spot
+:PROPERTIES:
+:CUSTOM_ID: h:63ac52ce-21af-4bad-891a-fe041a2d7486
+:END:
+
+This is the background of the selected candidate in the minibuffer
+while using the ~vertico~ package (among other similar interfaces).
+The colours I am now using are more consistent with their context and
+also work better as part of a popup completion interface, as noted
+above.
+
+** Palette refinements for several themes
+:PROPERTIES:
+:CUSTOM_ID: h:ab8b8e17-9838-4789-b16b-32606904b515
+:END:
+
+I have made subtle changes to a few colour values. These are fine
+details. The overarching goal is to be consistent throughout.
+
 * Version 2.1.0 on 2026-01-27
 :PROPERTIES:
 :CUSTOM_ID: h:4b48d1fa-02df-49e3-bf7f-6e3f04c7e84f
