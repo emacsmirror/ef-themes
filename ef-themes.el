@@ -196,6 +196,10 @@ and Modus into a single group, enable `modus-themes-include-derivatives-mode'."
     (fg-prominent-warning warning)
     (fg-prominent-note info)
 
+    (bg-added-fringe bg-info)
+    (bg-changed-fringe bg-warning)
+    (bg-removed-fringe bg-err)
+
     (bg-space unspecified)
     (fg-space border)
 
